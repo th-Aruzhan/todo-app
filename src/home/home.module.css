@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Rubik:wght@500;800&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+body {
+  padding: 50px;
+  color: #000000;
+  min-height: 100vh;
+  background: linear-gradient( #1C2135, #5A6794);
+  text-rendering: optimizeSpeed;
+  font-family: 'Rubik', sans-serif;
+
+}
+
+.App {
+  max-width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  background: #000000;
+  background-color: rgb(66, 83, 131); /* прозрачный цвет с небольшой непрозрачностью */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 5px;
+}
+
+.App {
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+
+h1 {
+  padding-top: 100px;
+  font-weight: 300;
+  color: #f1c9c9;
+  font-size: 2.5rem;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  font-family: 'Poetsen One', cursive;
+}
+
+.inputwrapper {
+  margin: 3.5rem;
+}
+
+.todos-wrapper {
+  margin-bottom: 2.5rem;
+}
+
+.todo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+input {
+  width: 450px;
+  padding: 0.8em;
+}
+
+.inputtext{
+  color: #000000;
+}
+
+input:focus {
+  outline: none;
+}
+
+
+
+button {
+  width: 120px;
+  padding: 0.8em;
+  cursor: pointer;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+}
+
+input,
+button {
+  font-size: 1em;
+  appearance: none;
+  color: currentcolor;
+  background: transparent;
+  border: 1px solid #ffffff;
+}
+
+.addButton {
+  color: #ffffff;
+  border-left: none;
+}
+
+.deletebutton{
+  color: #ffffff;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+  margin-bottom: 0px;
+}
+
+li {
+  width: 450px;
+  padding: 0.85em;
+  text-align: left;
+  margin-bottom: 0.5rem;
+  background: #ffffff;
+  letter-spacing: 0.02rem;
+  transition: all 0.3s ease-out;
+  border-left: 5px solid #0084ff;
+}
+
+li:last-child {
+  margin-bottom: 0px;
+}
+
+.empty {
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffea00;
+  letter-spacing: 0.2rem;
+  font-family: 'Poetsen One', cursive;
+}
+
+
